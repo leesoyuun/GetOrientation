@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+/*
         txtAzimuth = findViewById(R.id.txtAzimuth);
         txtPitch = findViewById(R.id.txtPitch);
         txtRoll = findViewById(R.id.txtRoll);
-
+*/
         sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         magSensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
         accSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
